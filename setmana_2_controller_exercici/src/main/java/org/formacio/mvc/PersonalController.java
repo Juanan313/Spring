@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
 
+@Component	
 public class PersonalController {
 
 	// no toqueu la declaracio de baseDeDades ni el metode getBaseDeDades
