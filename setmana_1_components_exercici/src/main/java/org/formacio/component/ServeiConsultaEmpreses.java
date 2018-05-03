@@ -1,7 +1,9 @@
 package org.formacio.component;
 
+import org.springframework.stereotype.Component;
 
 // aquesta classe ha de ser detectada com un component
+@Component
 public class ServeiConsultaEmpreses {
 
 	// aquest servei necessita d'un integrador de cotitzacions per retornar la informacio
