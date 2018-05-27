@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "jpa_basic",
+                "projectName": "jpa_basic",
+                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "jpa_basic",
+                "projectName": "jpa_basic",
+                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
