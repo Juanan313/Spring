@@ -30,5 +30,8 @@ public class ServeiAlumnat {
 		}
 		return false;
 	}
-	
+
+	public int numAlumnesRegistrats() {
+		return repositoriAlumnes.llistaAlumnes().size();
+	}	
 }
