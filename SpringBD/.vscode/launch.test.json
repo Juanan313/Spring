@@ -5,15 +5,7 @@
             {
                 "name": "jpa_basic",
                 "projectName": "jpa_basic",
-<<<<<<< Updated upstream
-                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
-=======
-<<<<<<< Updated upstream
-                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
-=======
-                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\Spring-BBDD",
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\SpringBD",
                 "args": [],
                 "vmargs": [],
                 "preLaunchTask": ""
@@ -26,15 +18,7 @@
             {
                 "name": "jpa_basic",
                 "projectName": "jpa_basic",
-<<<<<<< Updated upstream
-                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
-=======
-<<<<<<< Updated upstream
-                "workingDirectory": "d:\\juana\\Documents\\Spring\\SpringBD",
-=======
-                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\Spring-BBDD",
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\SpringBD",
                 "args": [],
                 "vmargs": [],
                 "preLaunchTask": ""

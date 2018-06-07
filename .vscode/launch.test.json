@@ -1,0 +1,76 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "Setmana2ControllerExercici",
+                "projectName": "Setmana2ControllerExercici",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "Setmana1Practica",
+                "projectName": "Setmana1Practica",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "controller",
+                "projectName": "controller",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "HelloWorld",
+                "projectName": "HelloWorld",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "Setmana2ControllerExercici",
+                "projectName": "Setmana2ControllerExercici",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "Setmana1Practica",
+                "projectName": "Setmana1Practica",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "controller",
+                "projectName": "controller",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            },
+            {
+                "name": "HelloWorld",
+                "projectName": "HelloWorld",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

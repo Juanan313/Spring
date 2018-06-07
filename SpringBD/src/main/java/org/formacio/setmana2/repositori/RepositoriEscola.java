@@ -1,5 +1,10 @@
 package org.formacio.setmana2.repositori;
 
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.formacio.setmana2.domini.Alumne;
 import org.formacio.setmana2.domini.Curs;
 import org.formacio.setmana2.domini.Matricula;
 import org.springframework.stereotype.Component;
@@ -12,6 +17,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class RepositoriEscola {
 
+	@PersistenceContext
+	EntityManager em;
 	
 	public Curs carregaCurs(String nom) {
 
@@ -23,7 +30,22 @@ public class RepositoriEscola {
 
 	
 	public Matricula apunta (String alumne, String curs) throws EdatIncorrecteException {
-	    return null;	
+		Matricula matricula = new Matricula();
+		
+		Alumne alumneAInsertar = em.find(Alumne.class, alumne);
+		Curs cursAInsertar = em.find(Curs.class, curs);
+
+		if( alumneAInsertar.getEdat() < cursAInsertar.getEdatMinima()) {
+			throw new EdatIncorrecteException();
+		}
+
+		matricula.setAlumne(alumneAInsertar);
+		matricula.setCurs(cursAInsertar);
+
+		em.persist(matricula);
+
+		return matricula;
+
 	}
 	
 	
