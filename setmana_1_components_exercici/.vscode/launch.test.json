@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "controller",
+                "projectName": "controller",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\setmana_1_components_exercici",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "controller",
+                "projectName": "controller",
+                "workingDirectory": "c:\\Users\\jpujals\\Documents\\ReposJuanan\\Spring\\setmana_1_components_exercici",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
